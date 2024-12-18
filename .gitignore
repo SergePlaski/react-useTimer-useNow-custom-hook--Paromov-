@@ -1,0 +1,104 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+dist-ssr
+**/dist
+**/dist-ssr
+**/dist-server
+**/out-tsc
+.vuepress/dist
+
+# Next.js build output
+.next
+
+# dependencies
+**/node_modules/
+
+# keys, settings, environment
+**/*key.json
+**/config.json
+**/.*local
+**/.env.*
+
+# tests
+**/e2e/*.js
+**/e2e/*.map
+**/coverage
+
+# lock files
+**/package-lock.json
+**/yarn.lock
+connect.lock
+
+# misc and logs
+**/*.log
+**/*.yaml
+**/tmp
+
+# project notes
+**/course_notes
+**/info
+**/info.txt
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Sass cache
+.sass-cache
+
+# System Files
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.history/
+.idea
+.DS_Store
+.project
+.classpath
+*.launch
+.settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel
+.vercel
+
+# Firebase and Firebase Hosting
+.firebase/
+.firebaserc
+firebase.json
+firebase-debug.log
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
