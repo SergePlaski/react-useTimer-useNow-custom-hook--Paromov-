@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { useTimer } from "../useTimer";
+import { useTimer } from "./useTimer";
 
-const resendTimeout = 10 * 1000; // 10 sec
-const updateInterval = 1000; // 1 sec
+const resendTimeout = 10 * 1000;
+const updateInterval = 1000;
 
 function App() {
   const [sentAt, setSentAt] = useState();
